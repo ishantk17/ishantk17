@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+  
+    <link rel="icon" href="facebook (1).png" type="img">
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    background-color:#395899 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+#left{
+    display: flex;
+}
+#left h2{
+    color:  #f7fdff;
+    padding-right: 15px;
+    font-size: 40px;
+}
+#subtn{
+    height: 30px;
+    margin-top: 44px;
+    background-color: #3aa11f;
+    color: #f7fdff;
+    border-radius: 4px;
+    border: 1px solid #8c8c8c;
+}
+#right form{
+    display: flex;
+    flex-direction: row;
+    padding: 17px
+}
+#email{
+    display: flex;
+    flex-direction: column;
+}
+#pass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+#libtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    margin-left: 12px;
+  
+}
+#login{
+    background-color:#5c7bbe;
+    color:#f7fdff ;
+}
+#right form p{
+    margin-top: 5px;
+    color: #7c91cd;
+}
+#email label{
+    color: white;
+    padding-bottom: 5px;
+}
+#pass label{
+    color: white;
+    padding-bottom: 5px;
+}
+main{
+    background-color: #e5e9ec;
+    display: flex;
+    height: 550px;
+}
+#middle{
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -67px;
+    
+    align-items: center;
+}
+#middle h3{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 27px;
+    margin-top: 39px;
+}
+#emailid,#pwd {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 31px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#loginbtn{
+    width: 280px;
+    height: 33px;
+    padding-top: 0px;
+    margin-top: 10px;
+    background-color:#3c65b3 ;
+    color: white;
+    border: 1px solid #c5c2c2;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#loginbtn:hover{
+    cursor: pointer;
+    background-color:#124096;
+}
+#cnabtn{
+    width: 250px;
+    height: 41px;
+    background-color: #30ac1a;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #cbcbcb;
+    border-radius: 3px;
+}
+#cnabtn:hover{
+   cursor: pointer;
+   background-color: #1b8f07;
+}
+#middle p{
+    color: #7c91cd;
+    margin-top: 9px;
+}
+#hovercna{
+    height: 500px;
+    width: 409px;
+    background-color: white;
+    position: relative;
+    right: 67px;
+    top: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #a2a2a2;
+   
+
+}
+#top h1{
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-top: 5px;
+}
+#top p{
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: grey;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 15px;
+}
+#form form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#fn,#sn,#eid,#passwd{
+    height: 33px;
+    width: 180px;
+    border-radius: 3px;
+    border: 1px solid #a6a6a6;
+    padding-left: 8px;
+    background-color: #f2f2f2;
+    margin-bottom: 12px;
+}
+#eid,#passwd{
+    height: 33px;
+    width: 377px;
+}
+#dob{
+    height: 33px;
+    width: 377px;
+    margin-bottom: 12px;
+}
+#form form p{
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+}
+#sign_up{
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #b6b6b6;
+    background-color: #00a400;
+    color: white;
+    margin-left: 119px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#sign_up:hover {
+ cursor: pointer;
+ background-color: #018101;
+ transform: scale(1.2);
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="left">
+              <h2>facebook</h2>
+              <input type="button" name="signup" value="Sign Up" id="subtn">
+        </div>
+        <div id="right">
+            <form>
+                <div id="email">
+                    <label>Email or Phone</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div id="pass">
+                    <label>Password</label>
+                    <input type="password" name="password" required>
+                    <p>Forgotten Account?</p>
+                </div>
+               <div id="libtn">
+                <input type="submit" name="submit" value="Log In" id="login">
+               </div>
+              
+              
+
+            </form>
+        </div>
+    </header>
+    <main>
+        <div id="middle">
+            <h3>Log in to Facebook</h3>
+            <input type="email" name="emailid" id="emailid" placeholder="Email or Phone" required>
+            <input type="password" name="pwd" placeholder="Password" id="pwd" required>
+            <input type="submit" name="login" value="Log In" id="loginbtn">
+            <p>Forgotten Account?</p>
+           <input type="button" name="cna" value="Create New Account" id="cnabtn">
+            
+        </div>
+        <div id="hovercna">
+            <div id="top">
+                <h1>Sign Up</h1>
+            <p>It's quick and easy.</p>
+            </div>
+            <div id="form">
+                <form>
+                    <div id="name">
+                        <input type="Text" name="fn" id="fn" placeholder="First name" required>
+                        <input type="Text" name="sn" id="sn" placeholder=" Surname" required>
+                    </div>
+              
+                    <input type="email" name="eid" id="eid" placeholder="Mobile number or email address">
+                    <input type="password" name="passwd" id="passwd" placeholder="New password">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                    <div id="gen">
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="gender" id="gender" value="Female">Female
+                        <input type="radio" name="gender" id="gender" value="Male">Male
+                        <input type="radio" name="gender" id="gender" value="Custom">Custom
+                    </div>
+                   
+                    <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                    <input type="submit" name="sign_up" id="sign_up" value="Sign Up">
+                </form>
+            </div>
+           
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
