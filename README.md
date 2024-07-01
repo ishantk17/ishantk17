@@ -6,6 +6,7 @@ I have experience in Web Development, Data Strcutures and Algorithms in C++ and 
 I have done most of my development journey in C++ and Javascript.
 Some of my Projects are listed below.
 Do try them and provide me a feedback.
+[![Ishant's GitHub stats](https://github-readme-stats.vercel.app/api?username=ishantk17)](https://github.com/ishantk17/github-readme-stats)
 You can find me on: [LinkedIn](https://www.linkedin.com/in/ishant-kumar-978a41202).  
 Email: ishantkumar2024[at]gmail[dot]com(preventing from spam).
 Thank you!
